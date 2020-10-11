@@ -1,0 +1,115 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #333; 
+}
+
+img{
+	position: relative;
+	border: 1px dotted #333; 
+	margin: 20px auto 2px; 
+	width: 100px;
+	height: auto; 
+}
+
+img[id=heart]{
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	top: 20px;
+	left: 20px; 
+	margin: 0; 
+	padding: 0;
+	border: none;
+	outline: none;
+	z-index: 2;
+}
+
+h4[id=heartLeft]{
+	position: absolute;
+	width: 30px;
+	top: 5px;
+	left: 30px;
+	color: white; 
+	text-align: left;
+	z-index: 3;
+
+}
+
+.game{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+h1{
+	color: #fff;
+	width: 90%;
+	font-size: 117%; 
+	margin: 0 auto 21px;
+}
+
+
+
+input{
+	width: 70%;
+	height: 30px;
+	font-family: times;
+	font-weight: 700;
+	font-size: 20px; 
+	border-radius: 10px; 
+	box-shadow: 5px 5px 2px #333; 
+}
+
+.sub{
+	user-select: none;
+	margin: 12px;
+	width: 134px;
+	height: 44px;
+	border-radius: 9px; 
+	border: 2px solid #f6f6f6; 
+	background: #129012; 
+	color: #fff; 
+	font-size: 17px;   
+}
+
+.sub:hover{
+	background-image: linear-gradient(300deg, #129012, #112178 );
+}
+
+.sub:active{
+	background: #112178; 
+}
+
+.msg{
+	color: red;
+	font-family: sans-serif;
+}
+
+.info{
+  font-size: 1.6em;
+  color: #ffff6f;
+  
+}
+
+.ref{
+	user-select: none;
+	margin: 12px;
+	width: 134px;
+	height: 44px;
+	border-radius: 9px; 
+	border: 2px solid #f6f6f6; 
+	background: #129012; 
+	color: #fff; 
+	font-size: 17px; 
+}
+
+.ref:hover{
+    background-image: linear-gradient(300deg, #129012, #112178 );
+}
+
+.ref:active{
+    background: #112178;
+}
